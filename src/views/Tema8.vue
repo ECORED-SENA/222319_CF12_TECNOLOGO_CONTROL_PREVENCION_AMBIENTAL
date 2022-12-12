@@ -11,7 +11,7 @@
     separador
     #t_8_1.titulo-segundo.color-acento-contenido
       h2 8.1 Control de plagas 
-    p medidas, para poder comprender es necesario revisar algunos conceptos:
+    p El control de plagas o manejo de plagas tiene el objetivo de regular una especie a través de diferentes tipos de medidas, para poder comprender es necesario revisar algunos conceptos:
     TabsC.color-acento-contenido
       .py-3.py-md-4(titulo="Plaga")
         .row.align-items-center
@@ -55,7 +55,7 @@
                     td.bgg 1. Insecticidas<br>2. Herbicidas<br>3. Veneno para matar roedores<br>4. Fungicidas<br>5. Bactericidas<br>6. Alguicidas<br>7. Repelentes de insectos<br>8. Molusquicidas
 
                     td.bgg Insectos y plagas relacionadas como las arañas<br>Maleza y otras plantas no deseadas<br>Ratones, ratas y otros roedores.<br>Moho y otros hongos<br>Bacterias<br>Algas (en piscinas y otras fuentes de agua)<br>Mosquitos y otros insectos o garrapatas<br>Caracoles y babosas.
-      .py-3.py-md-4(titulo="Pesticida")
+      .py-3.py-md-4(titulo="Control de plagas")
         .row.align-items-center
           .col-md-6
             figure
@@ -64,15 +64,15 @@
             h4 Control de plagas
             p Si las plagas se vuelven un problema, necesitará controlarlas o exterminarlas, fomente el uso de materiales y métodos para tratar las plagas que maximicen la seguridad y reduzcan la exposición al personal a productos químicos dañinos. Para controlar las plagas, elija métodos que sean: 
             p.mb-0 Los menos dañinos para la salud humana y otros seres vivos que no son plagas. 
-            p.mb-0 De mayor duración posible y eviten reincidencia.
-            p.mb-0 Los más fáciles de implementar y que sean seguros y efectivos.
-            p Los más económicos a corto y largo plazo. u adecuados para la plaga en particular y que coincidan con el estado del ciclo de vida de la plaga cuando está en una etapa más vulnerable. 
+            p.mb-0 - De mayor duración posible y eviten reincidencia.
+            p.mb-0 - Los más fáciles de implementar y que sean seguros y efectivos.
+            p - Los más económicos a corto y largo plazo u adecuados para la plaga en particular y que coincidan con el estado del ciclo de vida de la plaga cuando está en una etapa más vulnerable. 
             p A menudo se pueden controlar las plagas siguiendo pasos libres de químicos como:
-            p.mb-0 Evitar que las plagas entren eliminando las fuentes de comida, agua y refugio.
-            p.mb-0 Lavar el área con agua y jabón.
-            p Usar una aspiradora para retirarlas: Una aspiradora de aire de alta eficacia (HEPA) con un filtro fino que pueda eliminar los excrementos y las partes de los insectos.
-          p Usar trampas: Algunas trampas se usan principalmente para supervisar la presencia de plagas. Entre éstas se incluyen las trampas para cucarachas y las trampas en base a feromona (que atraen sexualmente a los insectos) aún si la infestación es leve, estas trampas pueden ser usadas para mantener las plagas bajo control.  Otras trampas libres de químicos incluyen:
-          p Trampas para ratones y ratas que se cierran mecánicamente. Coloquelas en los lugares donde los roedores puedan encontrarlas. 
+            p.mb-0 - Evitar que las plagas entren eliminando las fuentes de comida, agua y refugio.
+            p.mb-0 - Lavar el área con agua y jabón.
+            p - Usar una aspiradora para retirarlas: una aspiradora de aire de alta eficacia (HEPA) con un filtro fino que pueda eliminar los excrementos y las partes de los insectos.
+          p - Usar trampas: algunas trampas se usan principalmente para supervisar la presencia de plagas. Entre éstas se incluyen las trampas para cucarachas y las trampas en base a feromona (que atraen sexualmente a los insectos) aún si la infestación es leve, estas trampas pueden ser usadas para mantener las plagas bajo control.  Otras trampas libres de químicos incluyen:
+          p Trampas para ratones y ratas que se cierran mecánicamente. Colóquelas en los lugares donde los roedores puedan encontrarlas. 
           p “Matamoscas y trampas de luz ultravioleta para moscas. “Trampas cónicas para moscas o avispas de chaqueta amarilla. “Trampas de caja para zorrillos, mapaches y comadrejas (zarigüeyas) Si los métodos libres de químicos no dan resultados, use el pesticida menos dañino para tratar el problema de plaga. Los pesticidas menos dañinos son: cebos que se colocan en lugares fijos (no rociados o esparcidos)  efectivos contra plagas específicas. Son de baja toxicidad aguda y crónica para las personas, los animales y el medio ambiente. se biodegradan rápidamente. Exterminan una categoría limitada de plagas específicas. tienen poco o ningún impacto en otros organismos, especialmente en los predadores de plagas.
     separador
     #t_8_2.titulo-segundo.color-acento-contenido
@@ -85,31 +85,31 @@
 
           .tarjeta.color-acento-botones
             .p-4
-              p.text-center <strong>La Desinfección:</strong> Reducción o disminución de los microorganismos presentes, por medio de agentes químicos y/o físicos, a un nivel que no sea dañino para el alimento o para el ser humano.
+              p.text-center <strong>La desinfección:</strong> reducción o disminución de los microorganismos presentes, por medio de agentes químicos y/o físicos, a un nivel que no sea dañino para el alimento o para el ser humano.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema8/2.svg' alt='AvatarTop')
 
           .tarjeta.color-acento-botones
             .p-4
-              p.text-center <strong>Limpieza:</strong> Eliminación de tierra, residuos de alimentos, suciedad, grasa u otras materias.
+              p.text-center <strong>Limpieza:</strong> eliminación de tierra, residuos de alimentos, suciedad, grasa u otras materias.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema8/3.svg' alt='AvatarTop')
 
           .tarjeta.color-acento-botones
             .p-4
-              p.text-center <strong>Solución:</strong> Combinación de un sólido o de un producto concentrado con agua, para obtener una distribución homogénea de cada uno de los componentes
+              p.text-center <strong>Solución:</strong> combinación de un sólido o de un producto concentrado con agua, para obtener una distribución homogénea de cada uno de los componentes
     .col-5.mt-5
       .row.colorazul.p-2
         h4.text-white.text-center.mb-0 Modelo genérico de limpieza y desinfección manual  
     .row.mt-3
       .col-lg-6
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-          .row.justify-content-center(titulo="Limpieza")
+          .row.justify-content-center(titulo="Limpieza:")
             .col-md-11.mb-4.mb-md-0
               p Es la eliminación gruesa de la suciedad (restos de alimentos, grasa, etc.). Se realiza mediante raspado, frotado, barrido, o pre-enjuagado de superficies.
-          .row.justify-content-center(titulo="Limpieza principal")
+          .row.justify-content-center(titulo="Limpieza principal:")
             .col-md-11.mb-4.mb-md-0
               p Consiste en la aplicación del detergente para desprender la suciedad de las superficies.
           .row.justify-content-center(titulo="Enjuague: ")
@@ -206,13 +206,13 @@
           li 
             i.fas.fa-check
             | Es un químico económico, asequible, de gran aplicabilidad y se consigue comercialmente en forma líquida a una concentración entre el 4% y el 6%:
-    h4.mt-4 Medidas de Manejo del Hipoclorito
+    h4.mt-4 Medidas de manejo del hipoclorito
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-11
             .row
-              h4 Medidas de Manejo del Hipoclorito
+              h4 Medidas de manejo del hipoclorito
               .col-md-8.mb-4.mb-md-0
                 p <strong>Use protección personal como:</strong> uniforme antifluido, guantes de nitrilo, gafas de seguridad.
                 p <strong>Recuerde usarlo en lugares con ventilación adecuada</strong>  hacer las preparaciones cada doce horas, almacenar en envases plásticos opacos y no en recipientes metálicos o de vidrio. Luego de estas doce horas se inactiva la dosificación no sirve.
@@ -239,7 +239,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema8/10.png', alt='Texto que describa la imagen')
-    h4.mt-3 Preparación de Hipoclorito de Sodio
+    h4.mt-3 Preparación de hipoclorito de sodio
     .row.mt-4.align-items-center
       .col-lg-6
         img(src='@/assets/curso/tema8/11.png', alt='Texto que describa la imagen')
@@ -260,8 +260,10 @@
       .col-lg-10
         .row
           .col-lg-6
-            h5.mb-1 Figura 26 
-            p Ejemplo de preparación de dosificación
+            .titulo-sexto.color-acento-contenido.mt-4
+              h5 Figura 26 
+              span Ejemplo de preparación de dosificación
+
             img(src='@/assets/curso/tema8/12.png', alt='Texto que describa la imagen')
             figcaption Nota. Preparación, uso y almacenamiento adecuado del hipoclorito de sodio en los prestadores de servicio de salud. INVIMA (2012, p.9)
           .col-lg-6
@@ -402,7 +404,7 @@
       .col-lg-6
         .row.mt-3.bgh.p-4
           h5.mb-1 Ecotoxicidad 
-          p A pesar de la dilución, el Hipoclorito de Sodio forma soluciones causticas con el agua. Resulta muy tóxico para los organismos acuáticos, de manera que se usa para reducir la presencia de microorganismos en los procesos de tratamiento de aguas residuales. Además, esta sustancia presenta efectos perjudiciales a los organismos acuáticos por variación del pH. INVIMA (2012)
+          p A pesar de la dilución, el hipoclorito de sodio forma soluciones caústicas con el agua. Resulta muy tóxico para los organismos acuáticos, de manera que se usa para reducir la presencia de microorganismos en los procesos de tratamiento de aguas residuales. Además, esta sustancia presenta efectos perjudiciales a los organismos acuáticos por variación del pH. INVIMA (2012)
         .row.mt-3.colort52.p-3.align-items-center
           .col-2
             img(src='@/assets/curso/tema5/q1.svg' alt='AvatarTop')

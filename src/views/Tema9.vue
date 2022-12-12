@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 9
-      h1 Seguridad y Salud en el Trabajo
+      h1 Seguridad y salud en el trabajo
     img(src='@/assets/curso/tema9/1.png' alt='AvatarTop')
     p.mt-4 Se deberán incluir las medidas de higiene y seguridad que permitirán proteger la salud del trabajador y prevenir riesgos que atenten contra su integridad. Así mismo, estas medidas contemplan aspectos de capacitación en procedimientos de bioseguridad y el trabajo, higiene y protección personal, entre otras y son complementarias a las condiciones del ambiente de trabajo, tales como iluminación, ventilación, ergonomía, etc.
     p Es importante tener en cuenta que todo empleador que tenga a su cargo trabajadores que participen en la manipulación de residuos debe cumplir con lo estipulado en la normatividad vigente sobre seguridad y salud en el trabajo. Área Metropolitana de Bucaramanga (2010, p. 9)
@@ -15,8 +15,10 @@
     p Es obligatorio el uso de elementos de protección personal para las actividades de recolección de residuos y almacenamiento de residuos por el personal que realiza estas labores.
     .row.justify-content-center
       .col-lg-10
-        h5.mb-1 Tabla 5 
-        p Elementos de protección según actividad en residuos
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Tabla 5 
+          span Elementos de protección según actividad en residuos       
+
         .row.colort9.p-3
           .tabla-a.color-acento-contenido.mb-5 
             table
@@ -24,8 +26,8 @@
               thead
                 tr
                   th Actividad
-                  th Actividad
-                  th Actividad
+                  th Elementos de protección
+                  th Gráfico
 
               tbody
                 tr.fondob
@@ -41,9 +43,9 @@
     separador
     #t_9_2.titulo-segundo.color-acento-contenido
       h2 9.2 Plan de contingencia
-    p Todo Plan de Contingencias se debe basar en los potenciales escenarios de riesgo del sistema, que deben obtenerse del análisis de vulnerabilidad realizado, de acuerdo con las amenazas que pueden afectar a la organización durante su funcionamiento. 
-    p El Plan de Contingencias debe incluir procedimientos generales de atención de emergencias y procedimientos específicos para cada escenario de riesgo identificado.
-    p La elaboración del Plan de Contingencias debe seguir los siguientes parámetros: 
+    p Todo plan de contingencias se debe basar en los potenciales escenarios de riesgo del sistema, que deben obtenerse del análisis de vulnerabilidad realizado, de acuerdo con las amenazas que pueden afectar a la organización durante su funcionamiento. 
+    p El plan de contingencias debe incluir procedimientos generales de atención de emergencias y procedimientos específicos para cada escenario de riesgo identificado.
+    p La elaboración del plan de contingencias debe seguir los siguientes parámetros: 
     .row.justify-content-center
       .col-lg-10
         .row.mt-3.bgh.p-3
@@ -55,7 +57,7 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                | Análisis de riesgo,
+                | Análisis de riesgo
               li 
                 i.fas.fa-check
                 | Identificación y caracterización de peligros y amenazas
@@ -67,13 +69,13 @@
                 | Definición de los escenarios de riesgo
               li 
                 i.fas.fa-check
-                | Organización del Plan de Emergencias
+                | Organización del plan de emergencias
               li 
                 i.fas.fa-check
-                | Puesta en marcha del Plan de Emergencias
+                | Puesta en marcha del plan de emergencias
               li 
                 i.fas.fa-check
-                | Responsables de la elaboración y puesta en marcha del Plan de Contingencias.
+                | Responsables de la elaboración y puesta en marcha del plan de contingencias.
         figcaption.mt-1 Guía para el manejo integral de residuos. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008, p. 55) 
     .col-2.mt-5
       .row.colorazul.p-2
@@ -98,9 +100,11 @@
     p.mt-3.mb-0 La probabilidad de ocurrencia de las amenazas relacionadas con el almacenamiento y transporte de
     p.mb-0 sustancias químicas y residuos peligrosos, tales como la fuga de un gas tóxico o el derrame de un
     p combustible, se pueden ver potenciadas por la probabilidad de amenazas de tipo natural o social, como por ejemplo el desbordamiento de un río, una erupción volcánica o un atentado terrorista.
-    p En la Tabla se muestran algunas de las posibles amenazas que pueden afectar los componentes del Manejo Integral de Residuos Sólidos.
-    h5.mb-1 Tabla 6 
-    p Amenaza en las actividades de residuos
+    p En la tabla se muestran algunas de las posibles amenazas que pueden afectar los componentes del manejo integral de residuos sólidos.
+    .titulo-sexto.color-acento-contenido.mt-4
+      h5 Tabla 6 
+      span Amenaza en las actividades de residuos 
+
     img(src="@/assets/curso/tema9/5.svg")
     figcaption.mt-2 Nota. Guía para elaboración y presentación del plan de gestión integral de residuos hospitalarios y similares-pgirhs aplicado a micro generadores. Área Metropolitana de Bucaramanga (2010, p. 57) 
     .col-4.mt-5
@@ -154,8 +158,10 @@
       .col-lg-10
         .row
           .col-lg-6
-            h5.mb-1 Tabla 7 
-            p Valoración del riesgo 
+            .titulo-sexto.color-acento-contenido.mt-4
+              h5 Tabla 7
+              span Valoración del riesgo 
+
             img(src='@/assets/curso/tema9/7.png' alt='AvatarTop')
             figcaption Nota. Guía para elaboración y presentación del plan de gestión integral de residuos hospitalarios y similares-pgirhs aplicado a micro generadores. Área Metropolitana de Bucaramanga (2010, p. 58).
           .col-lg-6
@@ -167,8 +173,8 @@
               p Se entiende como la descripción de un futuro posible y de la trayectoria asociada a él. El escenario de riesgo es la interacción de los diferentes factores de riesgo (amenaza y vulnerabilidad) en un territorio y en un momento dado. Debe describir y permitir la identificación del tipo de daño y pérdidas que pueden generarse en caso de presentarse un evento peligroso en unas condiciones dadas de vulnerabilidad.
     .col-4.mt-5
       .row.colorazul.p-2
-        h4.text-white.text-center.mb-0 Organización del Plan de Emergencias
-    p.mt-3 Como se mencionó anteriormente, el análisis de riesgos es un requisito para la organización del Plan de Emergencias, ya que permite identificar los escenarios de riesgo. De esta manera, se facilita la proyección adecuada de las siguientes acciones:
+        h4.text-white.text-center.mb-0 Organización del plan de emergencias
+    p.mt-3 Como se mencionó anteriormente, el análisis de riesgos es un requisito para la organización del plan de emergencias, ya que permite identificar los escenarios de riesgo. De esta manera, se facilita la proyección adecuada de las siguientes acciones:
     .row.justify-content-center
       .col-lg-10
         .row.p-3.colort8
@@ -193,24 +199,14 @@
                 | Definición de procedimientos contra derrames, fugas e incendios.
     .col-6.mt-5
       .row.colorazul.p-2
-        h4.text-white.text-center.mb-0 Puesta en marcha y mantenimiento del Plan de Emergencias
-    p.mt-3 Como se mencionó anteriormente, el análisis de riesgos es un requisito para la organización del Plan de Emergencias, ya que permite identificar los escenarios de riesgo. De esta manera, se facilita la proyección adecuada de las siguientes acciones:
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        h4.text-white.text-center.mb-0 Puesta en marcha y mantenimiento del plan de emergencias
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mt-3
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema9/9.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El éxito de una operación de atención de eventos mayores depende de las acciones de respuesta previstas y desarrolladas en el Plan de Emergencias. De esta manera, para lograr los resultados esperados en el plan durante la ocurrencia de situaciones de emergencia, es necesario divulgarlo debidamente dentro de la organización, e integrarlo a otros planes locales y regionales, así como a otras entidades que deberán actuar conjuntamente en la respuesta a la emergencia. Además de la debida divulgación, la implementación del Plan está relacionada con la disponibilidad de los recursos humanos, además de los materiales necesarios y compatibles con la gravedad de los posibles eventos que se atenderán.
-    h5.mt-3 b. Aprovechamiento, tratamiento y/o disposición final
-    p Es necesario dejar consignado el tipo de aprovechamiento, tratamiento y/o disposición final que se utilizará para los residuos generados en la organización. Estos procesos deben ser seleccionados en función de las características de los residuos, las posibilidades de la organización, las alternativas existentes y las preferencias, en cumplimiento con la normatividad ambiental y sanitaria vigente, y propendiendo siempre por la opción o estrategia que genere un menor impacto ambiental. 
-    p En la siguiente tabla se presentan algunas alternativas de manejo que pueden aplicarse a los residuos:
-    .row.justify-content-center.mt-4
-      .col-lg-8
-        h5.mb-1 Tabla 8 
-        p Técnicas de manejo por tipo de residuo
-        img(src='@/assets/curso/tema9/10.png' alt='AvatarTop')
 
-  
 </template>
 
 <script>

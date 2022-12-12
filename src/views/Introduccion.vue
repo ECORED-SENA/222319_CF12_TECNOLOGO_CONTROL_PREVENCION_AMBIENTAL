@@ -9,8 +9,10 @@
           i.fas.fa-info
       h1 Introducción
     p A partir de un diagnóstico del manejo de los residuos se realiza la planeación e implementación de la gestión ambiental en el manejo de los residuos según la normativa y las acciones de mejora. El plan de gestión integral de residuos se divide en dos:  gestión interna y gestión externa, en este material se tendrá en cuenta la gestión integral de los residuos a nivel interno.
-    h5 Figura 1
-    p Esquema para la elaboración del Plan de gestión Integral de Residuos
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1
+      span Esquema para la elaboración del plan de gestión integral de residuos
     .row.colori1.justify-content-center
       .col-lg-10
         img(src="@/assets/curso/intro/1.svg", alt="Texto que describa la imagen")

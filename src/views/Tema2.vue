@@ -49,16 +49,18 @@
         img(src='@/assets/curso/tema2/2.png' alt='AvatarTop')
     .row.justify-content-center.mt-5
       .col-lg-10
-        h5 Tabla 1
-        p Ejemplo de objetivo, meta e indicador en residuos
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 1
+          span Ejemplo de objetivo, meta e indicador en residuos
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header
             .row
-              .col-3
-                h4.text-white.mb-0 Software
-              .col-3
-              .col-6
-                h4.mb-0.text-white Apps
+              .col-2
+                h4.text-white.mb-0 OBJETIVO
+              .col-2
+                h4.text-white.mb-0 META
+              .col-8
+                h4.mb-0.text-white INDICADOR
           table
             caption Nota. Autores (2020) Objetivos, metas e indicadores.
             tr

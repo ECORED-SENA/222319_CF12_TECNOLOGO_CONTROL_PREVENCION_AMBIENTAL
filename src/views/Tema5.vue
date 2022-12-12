@@ -36,11 +36,12 @@
           .col-9
             .row.colort5.p-2
               p.text-center.mt-4 Listado de residuos generados con mayor frecuencia en la organización. 
-    p.mt-3 <strong>Para mayor facilidad se puede usar la siguiente tabla de información como ejemplo que sirve para enlistar los residuos, identificar el tipo de residuo, el recipiente a usar, el rótulo a usar, la capacidad del mismo, el estado del recipiente y si es posible pueden ir más datos como áreas y ubicación específica del punto ecológico</strong>, también estas tablas colocan una casilla adicional que es que se hace con este, y que gestor ambiental lo gestiona. Manual para el manejo integral de residuos sólidos en el valle de aburrá. Área metropolitana del valle de aburrá (2016, p. 18)
+    p.mt-3 <strong>Para mayor facilidad se puede usar la siguiente tabla de información como ejemplo que sirve para enlistar los residuos, identificar el tipo de residuo, el recipiente a usar, el rótulo a usar, la capacidad del mismo, el estado del recipiente y si es posible pueden ir más datos como áreas y ubicación específica del punto ecológico</strong>, también estas tablas colocan una casilla adicional que es que se hace con este, y que gestor ambiental lo gestiona. Manual para el manejo integral de residuos sólidos en el valle de aburrá. Área Metropolitana del Valle de Aburrá (2016, p. 18)
     .row.justify-content-center.mt-5
       .col-lg-10
-        h5 Tabla 2
-        p Información separación en la fuente 
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2
+          span Información separación en la fuente 
         .row.p-3.colort51
           img(src='@/assets/curso/tema5/5.svg', alt='Texto que describa la imagen')
           figcaption.mt-2.fondob Nota. Guía para elaboración y presentación del plan de gestión integral de residuos hospitalarios y similares aplicado a micro generadores Área Metropolitana de Bucaramanga (2010, p.6) 
@@ -76,8 +77,10 @@
                 .lista-ol--cuadro__vineta
                   span c
                 | Color negro para depositar los residuos no aprovechables.
-        h5.mt-4 Figura 5
-        p Código de colores para los residuos a nivel nacional
+
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 5
+          span Código de colores para los residuos a nivel nacional
         .row
           .col-lg-8
             img(src='@/assets/curso/tema5/8.png' alt='AvatarTop')
@@ -86,19 +89,23 @@
             .row.p-3.colort3
               p Algunas empresas tienen como guía la GTC 24 de 2009 para sus procesos de gestión de residuos, ya que algunos residuos no se disponen al servicio público de aseo lo cual le da la opción de clasificar de manera más específica los residuos sobre todos los de reciclaje y entregarlos desde la fuente más separados a gestores ambientales de reciclaje y tratamiento de residuos.
               p Esta GTC 24 no es obligatoria es opcional, algunas empresas también por elección utilizan solo algunos colores de esta GTC 24.
-        h5.mt-4 Figura 6
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 6
+          span Código de colores GTC24     
 
-        p Código de colores GTC24
         .row.p-3.colort51
           img(src='@/assets/curso/tema5/9.svg' alt='AvatarTop')
           figcaption.fondob.mt-2 Nota. GTC 24- Gestión Ambiental Residuos sólidos Guía para la separación en la fuente. ICONTEC (2009, p.5)
-        h5.mt-4 Figura 7
-        p Código de colores propuesto por la GTC 24
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 7
+          span Código de colores propuesto por la GTC 24         
         img(src='@/assets/curso/tema5/10.png' alt='AvatarTop')
         figcaption Nota. Guía para la gestión de residuos peligrosos. Universidad Pontificia Bolivariana. (2011, p.63) 
-        h5.mt-4 Figura 8
+        p.mt-2 Para las entidades de salud si es obligatorio el código de colores que delegue el Manual para la Gestión Integral de Residuos Generados en la Atención en Salud y otras actividades, y se dictan otras disposiciones
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 8
+          span Código de colores en el gremio de la salud
 
-        p Código de colores en el gremio de la salud
         img(src='@/assets/curso/tema5/11.svg' alt='AvatarTop')
         figcaption.mt-2 Nota. Resolución en proyecto 2 por la cual se adopta el manual para la gestión integral de residuos generados en la atención en salud y otras actividades, y se dictan otras disposiciones. Ministerio de salud y protección social (2020, p.10)  
         .row.justify-content-center.mt-3
@@ -165,8 +172,9 @@
               p Los recipientes para residuos peligrosos obligatoriamente deben tener tapa, con buen ajuste, bordes redondeados y boca ancha para facilitar su vaciado. Construidos en forma tal que, estando cerrados o tapados, no permitan la entrada de agua, insectos o roedores, ni el escape de líquidos por sus paredes o por el fondo.
 
               p Los residuos reciclables usan el logo de reciclaje en los recipientes y para ordinarios usan algunas veces el logo circular, pero no es necesario el logo en ordinarios. 
-    p.mt-4 Los recipientes para residuos peligrosos obligatoriamente deben tener tapa, con buen ajuste, bordes redondeados y boca ancha para facilitar su vaciado. Construidos en forma tal que, estando cerrados o tapados, no permitan la entrada de agua, insectos o roedores, ni el escape de líquidos por sus paredes o por el fondo.
-    p Los residuos reciclables usan el logo de reciclaje en los recipientes y para ordinarios usan algunas veces el logo circular, pero no es necesario el logo en ordinarios. 
+    .titulo-sexto.color-acento-contenido.mt-4
+      h5 Figura 10
+      span Logos
     .row.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.p-4
@@ -175,7 +183,7 @@
               figure
                 img(src='@/assets/curso/tema5/a1.svg', alt='Texto que describa la imagen')
 
-          h5.text-center Papel y Cartón
+          h5.text-center Papel y cartón
           ul.lista-ul--color.lista-ul
             li.mb-0
               i.fas.fa-check
@@ -227,7 +235,8 @@
               p.text-white.mb-0 Barrido y servilletas
             li.mb-0 
               i.fas.fa-check.text-white
-              p.text-white.mb-0 Barrido y servilletas
+              p.text-white.mb-0 Icopor, tetrapack
+
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.p-4.bgt513
           .row.justify-content-center.mb-3
@@ -235,7 +244,7 @@
               figure
                 img(src='@/assets/curso/tema5/q8.svg', alt='Texto que describa la imagen')
 
-          h5.text-center.text-white Riesgo Biológico
+          h5.text-center.text-white Riesgo biológico
           ul.lista-ul--color.lista-ul
             li.mb-0
               i.fas.fa-check.text-white
@@ -294,16 +303,14 @@
             | Resistentes a ruptura y perforación por elementos cortopunzantes.
           li 
             i.fas.fa-check
-            | Con tapa ajustable o de rosca, de boca angosta, de tal forma que al cerrarse quede completamente hermético.
-          li 
-            i.fas.fa-check
-            | Rotulados de acuerdo con la clase de residuo.
+            | Con tapa ajustable o de rosca, de boca angosta, de tal forma que al cerrarse quede completamente hermético. Rotulados de acuerdo con la clase de residuo.
+
           li 
             i.fas.fa-check
             | Livianos y de capacidad no mayor a 2 litros.
           li 
             i.fas.fa-check
-            | Ser resistentes, desechables y de paredes gruesa 
+            | Ser resistentes, desechables y de paredes gruesa .
       .col-lg-2
         img(src='@/assets/curso/tema5/15.svg', alt='Texto que describa la imagen')
     figcaption.mt-2 Nota. Plan de gestión Integral de Residuos. Universidad Industrial de Santander (2013, p.14) 
@@ -327,8 +334,10 @@
     p.mt-3 En residuos peligrosos pueden usarse diferentes tipos de pictogramas como el del rombo NFPA
     .row.justify-content-center
       .col-lg-10
-        h5 Figura 14
-        p NFPA
+
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 14
+          span NFPA
         img(src='@/assets/curso/tema5/17.svg', alt='Texto que describa la imagen')
         figcaption.mt-2 Nota. Rombo de riesgo NFPA. Gerry Mata (2012, p.1) 
     .col-1.mt-5
@@ -377,7 +386,7 @@
               tr.fondob
                 td.text-center 3. Líquidos inflamables y líquidos combustibles 
                 <td><img src='@/assets/curso/tema5/x3.svg'> </td>
-                td 2.1 Gases inflamables<br>2.2 Gases no inflamables, no tóxicos<br>2.3 Gases tóxicos.
+                td 
               tr.fondob
                 td.text-center 4. Sólidos inflamables 
                 <td><img src='@/assets/curso/tema5/x4.svg'> </td>
@@ -387,9 +396,9 @@
                 <td><img src='@/assets/curso/tema5/x5.svg'> </td>
                 td 5.1 Sustancias comburentes<br>5.2 Peróxidos orgánico
               tr.fondob
-                td.text-center 6. Sustancia toxicas 
+                td.text-center 6. Sustancia tóxicas 
                 <td><img src='@/assets/curso/tema5/x6.svg'> </td>
-                td 6.1 Sustancias Tóxicas<br>6.2 Sustancia infecciosa
+                td 6.1 Sustancias tóxicas<br>6.2 Sustancia infecciosa
               tr.fondob
                 td.text-center 7.  Sustancias radiactivas 
                 <td><img src='@/assets/curso/tema5/x7.svg'> </td>

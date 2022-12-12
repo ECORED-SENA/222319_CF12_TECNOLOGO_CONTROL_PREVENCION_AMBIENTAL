@@ -14,12 +14,12 @@
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/tema3/q1.svg' alt='AvatarTop')
-        p.text-center Prevención en la generación de residuos y Reducción en el origen. 
+        p.text-center Prevención en la generación de residuos y reducción en el origen. 
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/tema3/q2.svg' alt='AvatarTop')
-        p.text-center Talleres de segregación de residuos, recolección, almacenamiento, simulacros de aplicación del Plan de Contingencia. 
+        p.text-center Talleres de segregación de residuos, recolección, almacenamiento, simulacros de aplicación del plan de contingencia. 
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-5

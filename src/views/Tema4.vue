@@ -25,7 +25,7 @@
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/tema4/3.png', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="La reutilización de elementos")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="La utilización de una menor cantidad de empaques")
         .row.justify-content-center
           .col-xl-5
             h4 La utilización de una menor cantidad de empaques
@@ -78,7 +78,7 @@
         p En el material complementario puede revisar el video “Campaña cero papel SENA”, para conocer más del tema.
         .row.justify-content-center
           .col-lg-10
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=37Y2a2R0ORg&ab_channel=comunicacionesfusa" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto

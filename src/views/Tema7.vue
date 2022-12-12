@@ -88,8 +88,9 @@
         figcaption.mt-2 Nota. Manual para el manejo integral de residuos sólidos en el valle de aburrá. Área metropolitana del valle de aburra (2016, p. 22) 
     .row.justify-content-center.mt-4
       .col-lg-10
-        h5.mt-4-mb-1 Figura 24 
-        p Matriz de incompatibilidad de residuos químicos
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 24 
+          span Matriz de incompatibilidad de residuos químicos
         img(src='@/assets/curso/tema7/8.png', alt='Texto que describa la imagen')
         figcaption.mt-2 Nota. Matriz de incompatibilidad .Universidad Javeriana (2017)
         .tarjeta.color-primario.p-3.mb-5.mt-4
